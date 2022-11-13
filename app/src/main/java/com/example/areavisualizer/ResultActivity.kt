@@ -12,7 +12,7 @@ class ResultActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_result)
 
-        val area = intent.getIntExtra("calculateArea", 666)
+        val area : Double = intent.getDoubleExtra("calculateArea", 666.0)
 
         resultField = findViewById(R.id.resultTextView)
         resultField.text = area.toString()

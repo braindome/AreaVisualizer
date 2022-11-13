@@ -29,9 +29,9 @@ class TriangleActivity : AppCompatActivity() {
         }
     }
 
-    fun calculateArea() : Int {
+    fun calculateArea() : Double {
         var length = baseEditText.text.toString().toInt()
         var height = heightEditText.text.toString().toInt()
-        return (length*height)/2
+        return (length*height)/2.0
     }
 }

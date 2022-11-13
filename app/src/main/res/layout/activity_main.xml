@@ -46,13 +46,13 @@
         android:layout_height="150dp"
         android:layout_marginTop="20dp"
         android:scaleType="fitCenter"
-        app:layout_constraintEnd_toStartOf="@+id/imageButton6"
+        app:layout_constraintEnd_toStartOf="@+id/pentButtonView"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/squareButtonView"
         app:srcCompat="@drawable/simple_triangle_svg" />
 
     <ImageButton
-        android:id="@+id/imageButton6"
+        android:id="@+id/pentButtonView"
         android:layout_width="150dp"
         android:layout_height="150dp"
         android:layout_marginTop="20dp"
@@ -63,26 +63,26 @@
         app:srcCompat="@drawable/regular_pentagon_svg" />
 
     <ImageButton
-        android:id="@+id/imageButton7"
+        android:id="@+id/circleButtonView"
         android:layout_width="150dp"
         android:layout_height="150dp"
         android:layout_marginTop="20dp"
         android:scaleType="fitCenter"
-        app:layout_constraintEnd_toStartOf="@+id/imageButton8"
+        app:layout_constraintEnd_toStartOf="@+id/ellipseButtonView"
         app:layout_constraintHorizontal_bias="0.506"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/triangleButtonView"
         app:srcCompat="@drawable/black_circle_svg" />
 
     <ImageButton
-        android:id="@+id/imageButton8"
+        android:id="@+id/ellipseButtonView"
         android:layout_width="150dp"
         android:layout_height="150dp"
         android:layout_marginTop="20dp"
         android:layout_marginEnd="28dp"
         android:scaleType="fitCenter"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageButton6"
+        app:layout_constraintTop_toBottomOf="@+id/pentButtonView"
         app:srcCompat="@drawable/ellipse_black_svg" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
